@@ -1,0 +1,340 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 15pt;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-color: #4286d2;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 25px;
+}
+header .menuPrinci {
+  display: flex;
+  width: 33.3%;
+  padding-left: 20px;
+}
+header .menuPrinci img {
+  width: 5%;
+}
+header img {
+  width: 10%;
+}
+header nav {
+  width: 33.3%;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+header nav ul a {
+  display: flex;
+  width: 33.3%;
+}
+header nav ul a li {
+  display: flex;
+  justify-content: center;
+}
+header nav ul a li img {
+  width: 15%;
+}
+
+.divLogos {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 20px;
+  background-color: #92c5fc;
+}
+.divLogos div {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.divLogos div a img {
+  width: 28%;
+}
+
+main {
+  background-color: rgb(241, 242, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+}
+main article {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 50%;
+  font-size: 18pt;
+}
+main article h2 {
+  margin-bottom: 40px;
+}
+main .divArtVen {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+main .divArtVen div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+main .divArtVen div div {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  padding: 20px;
+  justify-content: center;
+  margin: 30px;
+  background-color: white;
+  border-radius: 25px;
+  align-items: center;
+  text-align: center;
+}
+main .divArtVen div div img {
+  width: 50%;
+}
+main .divArtVen div div .divSelec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: none;
+}
+main .divArtVen div div .divSelec img {
+  width: 60%;
+}
+main .divBanner {
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+main .divBanner img {
+  width: 100%;
+}
+
+footer {
+  background-color: #4286d2;
+  padding: 50px;
+  text-align: center;
+}
+footer div ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+footer div ul li {
+  width: 33.3%;
+  /*border: 2px solid black;*/
+}
+footer div ul li div {
+  list-style: none;
+}
+footer div ul li div ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*border: 2px solid orangered;*/
+}
+footer div ul li div ul li {
+  margin: 15px;
+  width: 50%;
+  /*border: 2px solid gainsboro;8*/
+}
+footer div ul li div ul li iframe {
+  width: 100%;
+  height: 100%;
+}
+footer div ul li .DivRedes {
+  /*border: 2px solid orange;*/
+}
+footer div ul li .DivRedes ul {
+  display: flex;
+  /*border: 2px solid yellow;*/
+  flex-direction: row;
+  justify-content: start;
+}
+footer div ul li .DivRedes ul a {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+footer div ul li .DivRedes ul a li {
+  display: flex;
+  flex-direction: row;
+  /*border:  2px solid green;*/
+  width: 50%;
+  justify-content: center;
+}
+footer div ul li .DivRedes ul a li img {
+  width: 30%;
+  /*border: 2px solid red;*/
+}
+
+/*-------------------------carrito-------------------------*/
+.headerCarrito nav {
+  width: 100%;
+  /*border: 2px solid greenyellow;*/
+}
+.headerCarrito nav ul {
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-around;
+}
+.headerCarrito nav ul a {
+  display: flex;
+  align-items: center;
+  /*border: 2px solid yellow;*/
+  width: 25%;
+}
+.headerCarrito nav ul a img {
+  width: 8%;
+  height: -moz-min-content;
+  height: min-content;
+}
+.headerCarrito nav ul .LOGO {
+  width: 33.3%;
+}
+.headerCarrito nav ul .LOGO img {
+  width: 30%;
+}
+
+.CuerpoCarrito {
+  /*border: 2px solid black;*/
+  width: 80%;
+  margin-bottom: 40px;
+}
+.CuerpoCarrito ul {
+  /*border: 2px solid red;*/
+  list-style: none;
+}
+.CuerpoCarrito ul li {
+  /*border: 2px solid yellow;*/
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.CuerpoCarrito ul li div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*border: 2px solid green;*/
+  width: 90%;
+}
+.CuerpoCarrito ul li div img {
+  /*border: 2px solid yellow;*/
+  width: 1%;
+  height: 50%;
+}
+
+.DivTotal {
+  /*border: 2px solid yellow;*/
+  margin-top: 40px;
+  height: 15vh;
+  width: 80%;
+}
+.DivTotal div {
+  /*border: 2px solid red;*/
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+.DivTotal div button {
+  display: flex;
+  height: 55%;
+  width: 8%;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 0px 0px 5px gray;
+  align-items: center;
+  justify-content: center;
+}
+
+/*-------------------------------fin carrito--------------*/
+/*------------------------------Perfil Admin -----------*/
+.mainAdmin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 70vh;
+}
+.mainAdmin div {
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 250px;
+  margin: 15px;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+.mainAdmin div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainAdmin div a img {
+  /*border: 2px solid blue;*/
+  width: 20%;
+}
+
+.footerAdmin {
+  height: 1vh;
+}
+
+/*----------------------------------Ventas----------------*/
+.mainVentAdmin div {
+  display: flex;
+  justify-content: center;
+  /*border: 2px solid salmon;*/
+  width: 80%;
+}
+.mainVentAdmin div ul {
+  list-style: none;
+  /*border: 2px solid black;*/
+  width: 100%;
+}
+.mainVentAdmin div ul li {
+  border-bottom: 2px solid #4286d2;
+}
+.mainVentAdmin div ul li a {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  /*border: 2px solid black;*/
+}
+.mainVentAdmin .VentasVolver a {
+  display: flex;
+  justify-content: center;
+  /*border: solid 2px red;*/
+}
+.mainVentAdmin .VentasVolver a img {
+  margin-top: 40px;
+  width: 10%;
+}/*# sourceMappingURL=style.css.map */
